@@ -26,6 +26,12 @@ const Login = () => {
                 <button>Login</button>
             </form>
         </div>
+        <div className='bottom'>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms of Use</li>
+            </ul>
+        </div>
         </div>
      );
 }

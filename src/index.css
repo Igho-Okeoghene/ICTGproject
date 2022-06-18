@@ -46,6 +46,15 @@ button{
     justify-content: center;
     align-items: center;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    font-size: 0.75rem;
+    
+}
 .logo{
     position: relative;
     width: 2rem;
