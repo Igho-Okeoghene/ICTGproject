@@ -4,39 +4,58 @@
     padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: #F2F3F6;
 }
-.container{
-    display: flex
+.nav{
+   font-weight: 800;
 }
-.container--img{
+.login{
+     display: flex;
+}
+.details{
+    margin: 5rem 2rem;
+    width: 100%;
+} 
+.center{
+    text-align: center;
+    margin-top: 6rem;
+}
+.login h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 44px;
+    
+    /* darker-dark */
+    color: #1D2129;
+}
+.login h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 29px;
+    margin-bottom: 3rem;
+    /* darker-dark */
+    color: #1D2129;
+}
+.login.label{
+    font-weight: 600;
+    font-size: 0.5rem;
+    line-height: 160%;
+
+    /* 🔹 Solid / Brand / Dark Gray / Dark Gray-400 */
+    color: #525C76;
+}
+.d-grid{
+    margin-top: 2rem;
+}
+.service{
+    display: none;
+}
+@media only screen and (min-width: 700px) {
+.service{
+    display: block;
+    width: 40%;
+    margin-top: 7rem;
+}
+.details{
     width: 60%;
 }
-.section--image{
-    height: 100vh;
-}
-main{
-    width: 40%;
-    position: relative;
-}
-.footer--text{
-    display: flex;
-    justify-content: space-between;
-    bottom: 0;
-    position: absolute;
-    padding-block: 1.2rem;
-    width: 100%;
-}
-.footer--text ul{
-    display: flex;
-    
-}
-.footer--text li {
-    padding-right: 10px;
-    list-style: none;
-    font-size: .7rem;
-}
-.footer--text p{
-    font-size: .7rem;
-    
 }

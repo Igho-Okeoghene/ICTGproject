@@ -1,12 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar'; 
 const Footer = () => {
     return ( 
-        <div className="footer--text">
-            <ul>
-                <li>Privacy</li>
-                <li>Terms of Use</li>
-            </ul>
-            <p>%copy;Living Faith Church</p>
-        </div>
+        <Navbar bg="light" variant="light" fixed="bottom">
+        <Container>
+          <Nav className="me-auto">
+            <Nav.Link href="#">Privacy Policy</Nav.Link>
+            <Nav.Link href="#">Terms of Use</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
      );
 }
  

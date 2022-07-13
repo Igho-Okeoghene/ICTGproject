@@ -1,9 +1,9 @@
-import Login from "./Components/Login";
+import Home from './Components/Home.js';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Home />
     </div>
   );
 }
