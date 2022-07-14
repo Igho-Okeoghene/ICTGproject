@@ -49,6 +49,12 @@
 .service{
     display: none;
 }
+.flex{
+    display:flex;
+}
+.end{
+    justify-content: space-between;
+}
 @media only screen and (min-width: 700px) {
 .service{
     display: block;
