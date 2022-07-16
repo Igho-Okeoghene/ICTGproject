@@ -55,6 +55,13 @@
 .end{
     justify-content: space-between;
 }
+.dropdown{
+    width: 4rem;
+    line-height: 2rem;
+}
+.flex .label{
+    margin-right: 1rem;
+}
 @media only screen and (min-width: 700px) {
 .service{
     display: block;
