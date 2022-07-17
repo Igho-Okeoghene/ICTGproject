@@ -14,7 +14,7 @@ const Counting = () => {
         1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
       ];
       console.log(options[0])
-      const defaultOption = options[0];
+      const defaultOption = options[0]  ;
       console.log(defaultOption);
       //setting date
       const current = new Date();
@@ -37,15 +37,16 @@ const Counting = () => {
                         <Form.Label className='label'>Row</Form.Label>
                         <Dropdown 
                         className="dropdown"
+                        controlClassName='myControlClassName'
                         options={options} 
                         //{onChange={onSelect} 
-                        value= {defaultOption}
+                        value= {options[0]}
                         minMenuHeight= "35"
                         height= "35"/>
                     </div>   
                     <div className="flex">
                         <Form.Label className='label'>Male</Form.Label>
-                        <Form.Control type="number" />
+                        <Form.Control type="number"  />
                     </div>
                     <div className="flex">
                         <Form.Label className='label'>Female</Form.Label>

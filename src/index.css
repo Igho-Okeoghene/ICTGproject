@@ -52,6 +52,15 @@
 .flex{
     display:flex;
 }
+.flex .label{
+    text-align: center;
+}
+.myControlClassName{
+    padding: 20px 60px 10px 10px
+}
+.half-width{
+    width: 50%;
+}
 .end{
     justify-content: space-between;
 }

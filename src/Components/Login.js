@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import { Form, Button} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Login = () => {
     // to set the input field to accept alphanumeric characters
@@ -28,7 +29,9 @@ const Login = () => {
                 <Form.Control type="text" placeholder="Enter unit ID Card" />
                 <div className="d-grid">
                 <Button variant="danger" size="lg">
+                <Link to="/counting">
                 Login
+                </Link>
                 </Button>
                 </div>
                 </Form.Group>
