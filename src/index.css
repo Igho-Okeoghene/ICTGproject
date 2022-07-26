@@ -63,6 +63,7 @@
 }
 .end{
     justify-content: space-between;
+    padding-top: 2rem;
 }
 .dropdown{
     width: 4rem;
@@ -71,6 +72,22 @@
 .flex .label{
     margin-right: 1rem;
 }
+.white{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.boxed{
+    border: 2px solid #1D2129;
+    padding: .4rem .6rem ;
+    margin: 0 .2rem;
+    border-radius: 3px;
+}
+/*Give the span 1rem padding space on both sides*/
+.sumLayout{
+   padding-right: 1.5rem;
+}
+
 @media only screen and (min-width: 700px) {
 .service{
     display: block;

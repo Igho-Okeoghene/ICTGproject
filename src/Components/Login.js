@@ -29,7 +29,7 @@ const Login = () => {
                 <Form.Control type="text" placeholder="Enter unit ID Card" />
                 <div className="d-grid">
                 <Button variant="danger" size="lg">
-                <Link to="/counting">
+                <Link to="/counting" className='white'>
                 Login
                 </Link>
                 </Button>
