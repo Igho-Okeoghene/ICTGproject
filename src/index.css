@@ -86,10 +86,6 @@ button{
 .login-details{
     margin: 2rem;
 }
-.end{
-    display: flex;
-    justify-content: space-between;
-}
 .contain{
     max-width: 500px;
     background-color: rgb(235, 232, 232);
@@ -125,5 +121,9 @@ button{
 }
 .details{
     width: 60%;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
 }
 }

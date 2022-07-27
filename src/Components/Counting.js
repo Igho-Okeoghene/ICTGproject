@@ -29,10 +29,10 @@ const Counting = () => {
                     <div className="login-details">
                     <h2>Hello, Eunice Igho</h2>
                         <div className="end">
-                            <p>Hospitality Group - First Service</p>
-                            <p>Date: {date} </p>
+                            <p>Service Date: {date}  </p>
+                            <p>Service Unit: Hospitality Group </p>
                         </div>
-                        <p>Hope Gallery Wing 1</p>
+                        <p>Service Point: Hope Gallery Wing 1 - First Service</p>
                     </div>
                 <div className="contain">
                         <div className="item">
