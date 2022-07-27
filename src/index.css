@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+/*Styling for Login Page*/
 .nav{
    font-weight: 800;
 }
@@ -17,7 +18,8 @@
 } 
 .center{
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 .login h1{
     font-weight: 600;
@@ -39,7 +41,6 @@
     font-weight: 600;
     font-size: 0.5rem;
     line-height: 160%;
-
     /* 🔹 Solid / Brand / Dark Gray / Dark Gray-400 */
     color: #525C76;
 }
@@ -55,16 +56,11 @@
 .flex .label{
     text-align: center;
 }
-.myControlClassName{
-    padding: 20px 60px 10px 10px
-}
+
 .half-width{
     width: 50%;
 }
-.end{
-    justify-content: space-between;
-    padding-top: 2rem;
-}
+
 .dropdown{
     width: 4rem;
     line-height: 2rem;
@@ -77,15 +73,48 @@
     color: white;
     font-weight: 600;
 }
-.boxed{
-    border: 2px solid #1D2129;
-    padding: .4rem .6rem ;
-    margin: 0 .2rem;
-    border-radius: 3px;
-}
+
 /*Give the span 1rem padding space on both sides*/
 .sumLayout{
    padding-right: 1.5rem;
+}
+/*Styling for Button*/
+button{
+    width: 100%;
+}
+/*Styling for Counting Page*/
+.login-details{
+    margin: 2rem;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.contain{
+    max-width: 500px;
+    background-color: rgb(235, 232, 232);
+    color: black;
+    margin: 50px auto;
+    padding: 25px;
+    display: grid;
+    gap: 20px 0;
+    font-weight: 500;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+.result{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.score{
+    background-color: white;
+    color: black;
+    max-width: 1000%;
+    border-radius: 3px;
+    padding: 4px 0 4px 10px;
 }
 
 @media only screen and (min-width: 700px) {

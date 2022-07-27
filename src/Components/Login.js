@@ -28,18 +28,20 @@ const Login = () => {
                 <Form.Label className='label'>Unit ID Card</Form.Label>
                 <Form.Control type="text" placeholder="Enter unit ID Card" />
                 <div className="d-grid">
-                <Button variant="danger" size="lg">
                 <Link to="/counting" className='white'>
-                Login
+                    <Button variant="danger" size="lg">
+                        Login
+                    </Button>
                 </Link>
-                </Button>
                 </div>
+                <h3 className='center'>Serving God Pays! </h3>
+           
                 </Form.Group>
             </Form>
             </div>
             <div className='service'>
-                <h2 className='center'>"Seek ye first the kingdom of God and his righteousness and every other thing shall be added unto you" <br/>- Matthew 6:33</h2>
-            </div>
+                
+             </div>
         </Container>
      );
 }

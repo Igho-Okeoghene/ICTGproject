@@ -5,7 +5,7 @@ const Footer = () => {
     return ( 
         <Navbar bg="light" variant="light" fixed="bottom">
         <Container>
-          <Nav className="me-auto">
+          <Nav className="me-auto small">
             <Nav.Link href="#">Privacy Policy</Nav.Link>
             <Nav.Link href="#">Terms of Use</Nav.Link>
           </Nav>
